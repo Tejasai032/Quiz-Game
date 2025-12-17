@@ -1,0 +1,51 @@
+﻿ 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>QUIZ GAME</title>
+    <link  rel="stylesheet" href="Project1.css"/>
+
+</head>
+<body>
+
+    <div class="screen active" id="initialScreen">
+        <div id="initialpage">
+            <h1 id="initialHeading">QUIZ TIME</h1>
+            <h4>Test your knowledge with these questions</h4>
+            <button class="button" id="start">Let`s start Quiz</button>
+        </div>
+    </div>
+
+    <div class="screen" id="questionScreen">
+        <div id="questionpage">
+            <div class="QuestionBlock">
+                <h1 id="questionText">Questions</h1>
+            </div>
+
+            <div id="QuestionsInfo">
+                <p id="progress"></p>
+                <p id="score">Score : <span>0</span></p>
+            </div>
+
+            <div id="AnswersBlock">
+
+            </div>
+
+            <div id="progressbar">
+                <div id="progresswidth"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen" id="resultScreen">
+        <div id="resultpage">
+            <h1>Quiz Result</h1>
+            <h2>Your Total Score <span id="finalscore"></span></h2>
+            <p id="greetingText"></p>
+            <button class="button" id="restartBtn">Restart Quiz</button>
+        </div> 
+
+    </div>
+    <script src="projectscript1.js"></script>
+</body>
+</html>
