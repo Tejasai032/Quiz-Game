@@ -124,13 +124,13 @@
 
     .screen {
         width: 80%;
-        height: 80vh;
+        height: 80%;
         padding: 10px;
     }
 
     #initialScreen {
         width: 80%;
-        height: 80vh;
+        height: 80%;
     }
 
     h1 {
@@ -186,4 +186,5 @@
         height: 350px;
     }
 }
+
 
