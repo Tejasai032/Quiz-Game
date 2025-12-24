@@ -123,14 +123,14 @@
     }
 
     .screen {
-        width: 100%;
-        height: auto;
+        width: 80%;
+        height: 80vh;
         padding: 10px;
     }
 
     #initialScreen {
-        width: 100%;
-        height: auto;
+        width: 80%;
+        height: 80vh;
     }
 
     h1 {
@@ -186,3 +186,4 @@
         height: 350px;
     }
 }
+
